@@ -1,0 +1,21 @@
+.header{
+    background-color: lightblue; 
+  padding: 15px; 
+  color: black;
+  text-align: center;
+  font-size: 25px; 
+  font-weight: bold;
+  position: fixed; 
+  top: 0;
+
+  width: 100%; 
+  
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.head_cont{
+    position:fixed;
+    width:100%;
+    
+    
+}

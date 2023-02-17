@@ -1,0 +1,88 @@
+.app-conatiner{
+  width:93%;
+  background-color: white;
+  padding:10px;
+  margin:25px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 4px solid #551e53;
+  border-right: 4px solid #551e53;
+  border-radius: 12px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  font-size:38px;
+  font-weight:bold;
+  text-align:center;
+  font-family:"Adobe Arabic";
+  padding-top:30px;
+  margin-bottom:3px;
+
+}
+.paragraph{
+  font-size:26px;
+  font-family:"Adobe Arabic";
+  margin-top:0px;
+}
+.para_1{
+  font-size:34px;
+  font-family:"Adobe Arabic";
+  font-weight:bold;
+  margin-bottom:0px;
+  margin-top:4px;
+
+}
+.line{
+  height:2px;
+ background-color:black;
+ width:94%;
+ 
+}
+.anchor_ele{
+  font-size:22px;
+  font-family:"Adobe Arabic";
+  color:black;
+  font-weight:normal;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top:23px;
+ 
+}
+.background{
+  background-color: grey;
+ margin-top:0px;
+ margin-bottom:0px;
+ padding-left: 160px;
+  padding-right: 160px;
+
+}
+
+@media (max-width: 576px) {
+  .heading{
+    font-size: 30px;
+    margin-top:21px;
+  }
+  .paragraph{
+    font-size:21px;
+  }
+  .app-conatiner{
+    width:80%;
+    margin-top:0px;
+  margin-bottom:0px;
+   
+  }
+  .background{
+    background-color: grey;
+    padding:9px;
+   
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+}
