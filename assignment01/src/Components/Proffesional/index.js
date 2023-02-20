@@ -2,15 +2,13 @@ import React from 'react';
 import "./index.css";
 const Proffesional = () => {
     return (
-        <div className='proffesion'>
+        <div id="Proffesional" className='proffesion'>
            <p className="para_1">Proffesional Experience</p>
              <hr className='line_width'/> 
              <div className='alignment'>
            
             <h1 className='paragraph'>Graduate Trainee Engineer - Full Time, Megha Engineering and Infrastructures Ltd, Hyderabad,
 India . </h1>
-            
-
             <p className='paragraph '> ( Mar 2021 – Feb 2022 )</p>
             </div>
             <ul className=''>

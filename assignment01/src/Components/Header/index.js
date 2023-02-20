@@ -3,7 +3,8 @@ import "./index.css";
 
 const index = () => {
     return (
-        <div className='head_cont'>
+        <div id="Header" className='head_cont'>
+           
             <h1 className='header'>Resume Template</h1>
         </div>
     );

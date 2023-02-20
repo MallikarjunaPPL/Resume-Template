@@ -26,8 +26,8 @@
   margin-bottom:3px;
 
 }
-.paragraph{
-  font-size:26px;
+.paragraph_1{
+  font-size:23px;
   font-family:"Adobe Arabic";
   margin-top:0px;
 }
@@ -46,13 +46,15 @@
  
 }
 .anchor_ele{
-  font-size:22px;
+  font-size:23px;
   font-family:"Adobe Arabic";
   color:black;
   font-weight:normal;
   text-decoration: none;
   font-weight: bold;
-  padding-top:23px;
+  padding-top:0px;
+  margin-top:0px;
+  text-align: center;
  
 }
 .background{
@@ -63,26 +65,62 @@
   padding-right: 160px;
 
 }
+.side_nav{
+  height:100%;
+  position:fixed;
+  left:0;
+  margin-top:63px;
+  background-color: chartreuse;
+  width:160px;
+  padding-right:24px;
+}
 
+a{
+  text-decoration: none;
+  font-family:"Adobe Arabic";
+  font-size:21px;
+  display:block;
+  padding-left:20px;
+  margin-top:20px;
+
+}
 @media (max-width: 576px) {
   .heading{
-    font-size: 30px;
+    font-size: 21px;
     margin-top:21px;
   }
-  .paragraph{
-    font-size:21px;
+  .paragraph_1{
+    font-size: 18px;
   }
+  .anchor_ele{
+    font-size: 18px;
+  }
+
   .app-conatiner{
-    width:80%;
+    width:78%;
     margin-top:0px;
   margin-bottom:0px;
+  padding:17px;
+  margin-left:40px;
+ 
    
   }
+  
   .background{
-    background-color: grey;
-    padding:9px;
-   
+    padding-left:30px;  
+    padding-right:30px;  
     margin-top:0px;
     margin-bottom:0px;
+    margin-left:2px;
   }
+  .side_nav{
+    width:50px;
+    
+  }
+  a{
+    font-size:12px;
+    padding:6px;
+    margin:0px;
+  }
+
 }

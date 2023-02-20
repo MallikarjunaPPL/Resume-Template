@@ -2,7 +2,7 @@ import React from 'react';
 import "./index.css";
 const Acheivements = () => {
     return (
-        <div>
+        <div id="Acheivements">
            
              <p className="para_1">Achievements</p>
              <hr className='line_width'/> 

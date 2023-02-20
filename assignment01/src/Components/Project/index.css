@@ -63,7 +63,7 @@
    
   }
   
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .project_alignment{
         display: flex;
         flex-direction: column;

@@ -13,12 +13,25 @@ function App() {
     
     <Header/>
     <div className="background">
+      <div className="side_nav">
+      <a  href="#Acheivements">Acheivements</a>
+      <a href="#Activities">Activities</a>
+     
+       <a href="#Proffesional">Proffesional Exp.</a>
+        <a href="#Project">Projects</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Study">Education</a>
+
+
+
+      </div>
+      
     <div className="app-conatiner">
       
       <div className="container">
      
       <h1 className="heading">Sai Mallikarjuna Ponnpalli</h1>
-      <p className="paragraph">Guntur, Andhra Pradesh, 522003 | mallikarjunasai174@gmail.com | <a className="anchor_ele" rel="noreferrer" href="https://www.linkedin.com/in/sai-mallikarjuna/" target="_blank">www.linkedin.com/in/sai-mallikarjuna</a></p>
+      <p className="paragraph_1">Guntur, Andhra Pradesh, 522003 | mallikarjunasai174@gmail.com| <a className="anchor_ele" rel="noreferrer" href="https://www.linkedin.com/in/sai-mallikarjuna/" target="_blank">www.linkedin.com/in/sai-mallikarjuna</a></p>
     
       <p className="para_1">Education</p>
       <hr className='line'/>

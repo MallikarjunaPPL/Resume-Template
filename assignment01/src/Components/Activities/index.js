@@ -2,7 +2,7 @@ import React from 'react';
 import "./index.css";
 const activity = () => {
     return (
-        <div>
+        <div id="Activities">
              <p className="para_1">Extra-Curricular Activities</p>
              <hr className='line_width'/> 
              <ul className='activity_align'>

@@ -47,3 +47,16 @@
     padding:18px;
    
   }
+  @media (max-width:576px) {
+    
+  .table_lines {
+   
+   width:60%;
+    
+  }
+  
+  .align {
+   padding:5px;
+  }
+    
+  }

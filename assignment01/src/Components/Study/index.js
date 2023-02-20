@@ -3,7 +3,7 @@ import "./index.css";
 const study = () => {
     return (
         <>
-        <div className='alignment'>
+        <div id="Study" className='alignment'>
            
             <h1 className='paragraph'>IRC, CCBP Intensive 4.0 Tech Program<br/>
            <span className='para'>Full Stack Web Development </span></h1>

@@ -2,7 +2,7 @@ import React from 'react';
 import "./index.css";
 const Project = () => {
     return (
-        <div className='project_container'>
+        <div id="Project" className='project_container'>
             <p className="para_1">Projects</p>
              <hr className='line_width'/>
              <h1 className="project_heading">My Projects Page:
