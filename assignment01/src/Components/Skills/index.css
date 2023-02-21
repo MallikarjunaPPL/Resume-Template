@@ -40,7 +40,7 @@
   .center_align{
     text-align: center;
   }
-  .container{
+  .tech_container{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -51,12 +51,14 @@
     
   .table_lines {
    
-   width:60%;
+   width:80%;
+  
     
   }
   
   .align {
-   padding:5px;
+   padding:9px;
+   font-size:21px;
   }
     
   }

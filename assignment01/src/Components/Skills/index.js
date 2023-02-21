@@ -2,7 +2,7 @@ import React from 'react';
 import "./index.css";
 const skill = () => {
     return (
-        <div id="Skills" className='container'>
+        <div id="Skills" className='tech_container'>
             <p className="para_1">Technical Skills</p>
       <hr className='line'/>
       <table className="table_lines border_style">
