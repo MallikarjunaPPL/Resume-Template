@@ -11,49 +11,13 @@
   margin-top:0px;
   margin-bottom:0px;
 }
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo{
-  height:50px;
-  width:80px;
-  padding-top:59px;
-}
-.para_cont{
-  padding-top:69px;
-}
-.image_cont{
- display:flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-}
 
-.heading{
-  font-size:34px;
-  font-weight:bold;
-  text-align:center;
-  font-family:"Adobe Arabic";
- margin-top:0px;
-  margin-bottom:3px;
-
-}
-
-.paragraph_1{
-  font-size:23px;
-  font-family:"Adobe Arabic";
-  margin-top:2px;
-  margin-bottom:0px;
-}
 .para_1{
   font-size:34px;
   font-family:"Adobe Arabic";
   font-weight:bold;
   margin-bottom:0px;
-  margin-top:4px;
+  margin-top:10px;
 
 }
 .line{
@@ -62,19 +26,7 @@
  width:94%;
  
 }
-.anchor_ele{
-  font-size:23px;
-  font-family:"Adobe Arabic";
-  color:black;
-  font-weight:normal;
-  text-decoration: none;
-  font-weight: bold;
-  padding-top:0px;
-  margin-top:8px;
-  margin-bottom:8px;
-  text-align: center;
- 
-}
+
 
 .background{
   background-color: grey;
@@ -84,61 +36,9 @@
   padding-right: 160px;
 
 }
-.side_nav{
-  height:100%;
-  position:fixed;
-  left:0;
-  margin-top:81px;
-  background-color: chartreuse;
-  width:160px;
-  padding-right:24px;
-}
 
-.anchor_hidden{
-  text-decoration: none;
-  font-family:"Adobe Arabic";
-  font-size:21px;
-  display:block;
-  padding-left:20px;
-  margin-top:22px;
 
-}
-.manage_icon{
-  display: flex;
-  flex-direction: row;
-
-  
-}
-.icon_size{
-  font-size:26px;
-  margin-top: 28px;
-  padding-left:9px;
-
-  
-}
-.icon_activity{
-  font-size:36px;
-  margin-top: 20px;
-  padding-left:1px;
-  
-}
-.icon_achieve{
-  font-size:30px;
-  margin-top: 20px;
-  padding-left:6px;
-  
-}
 @media (max-width: 576px) {
-  .heading{
-    font-size: 21px;
-    margin-top:21px;
-  }
-  .paragraph_1{
-    font-size: 18px;
-  }
-  .anchor_ele{
-    font-size: 18px;
-  }
 
   .app-conatiner{
     width:78%;
@@ -150,20 +50,7 @@
    
   }
  
-  .icon_size{
-    font-size:30px;
-    padding-left:15px;
-   
-  }
-  .icon_achieve{
-    font-size: 30px;
-    padding-left:9px;
-    
-  }
-  .icon_activity{
-    font-size: 50px;
-    padding-left:5px;
-  }
+  
   .background{
     padding-left:30px;  
     padding-right:30px;  
@@ -171,19 +58,6 @@
     margin-bottom:0px;
     margin-left:2px;
   }
-  .side_nav{
-    width:50px;
-    
-  }
-  .anchor_hidden{
-   display:none;
-  }
-.container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.para_cont{
-  padding-top:15px;
-}
+  
+
 }
